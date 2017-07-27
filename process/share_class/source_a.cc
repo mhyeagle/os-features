@@ -16,4 +16,5 @@ int SourceA::func_1() {
 }
 
 int SourceA::func() {
+    return 1024;
 }

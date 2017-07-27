@@ -14,6 +14,7 @@ int main() {
 //    int num = test_a.func();
 //    cout << "object's num: " << num << endl;
     PTR_FUNC p_func;
+    p_func = SourceA::func;
     auto p_func_1 = SourceA::func;
     int num1 = (*p_func)();
     cout << "num return by p_func(): " << num1 << endl;
