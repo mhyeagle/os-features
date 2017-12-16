@@ -4,6 +4,7 @@
 void * Demo::thread_func(void * arg) {
     Demo * demo = (Demo *)arg;
     demo->process_func(); 
+    demo->num__ = 15;
 }
 
 void Demo::process_func() {
